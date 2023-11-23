@@ -42,7 +42,7 @@ int isValidInput(char *input) {    //check input
     }
     return 0; // Input invalid
 }
-
+//funzione principale
 int main(void) {
 #if defined WIN32
 	//Initializing Winsock on Windows platform
