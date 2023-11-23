@@ -1,0 +1,40 @@
+# Ignora file oggetto e file eseguibili
+*.o
+*.out
+*.exe
+
+# Ignora file generati dalla compilazione
+/Debug/
+/Release/
+
+# Ignora file di configurazione specifici del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora file di configurazione dell'IDE Eclipse
+.project
+.classpath
+.settings/
+.cproject
+# Ignora file di log
+*.log
+
+# Ignora file temporanei
+*.tmp
+*.bak
+
+# Ignora file di output della documentazione
+doc/
+
+# Ignora file di configurazione utente
+*.suo
+*.user
+*.sln.docstates
+
+# Ignora cache e file temporanei
+*.db
+*.sqlite
+*.sql
+
+# Ignora file di configurazione di ambiente
+.env
